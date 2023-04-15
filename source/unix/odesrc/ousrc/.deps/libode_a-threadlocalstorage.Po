@@ -1,0 +1,5 @@
+unix/odesrc/ousrc/libode_a-threadlocalstorage.o: \
+ unix/odesrc/ousrc/threadlocalstorage.cpp /usr/include/stdc-predef.h \
+ ../source/unix/odesrc/ou/features.h
+/usr/include/stdc-predef.h:
+../source/unix/odesrc/ou/features.h:

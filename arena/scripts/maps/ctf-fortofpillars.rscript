@@ -1,0 +1,179 @@
+textures/arena7/light3
+{
+	{
+		lensflare
+	}
+}
+textures/arena7/light10
+{
+	{
+		lensflare
+	}
+}
+textures/arena7/light11
+{
+	{
+		lensflare
+	}
+}
+
+textures/arena9/trim2
+{
+	{
+		map gfx/bluelightning2.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.3 0.9
+		scroll static 5 static 0
+		nolightmap
+	}
+	{
+		map gfx/trim2mask.tga
+		alphamask
+	}
+}
+
+textures/arena7/tekwall6
+{
+	{
+		map gfx/bluelightning.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 5 0.3 0.9
+		scroll static 0 static 1
+		nolightmap
+	}
+	{
+		map gfx/tekwallmask.tga
+		alphamask
+	}
+}
+
+textures/blanks/blank1
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap 1 1 1
+		beam
+	}
+}
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 40 static 40
+		colormap 1 1 1
+		beam
+	}
+}
+textures/blanks/blank3
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 1 1 1
+		beam
+		xang -0.25
+	}
+}
+textures/blanks/blank4
+{
+	{
+		map gfx/beam1.tga
+		scale static 10 static 10
+		colormap 1 1 1
+		beam
+		yang 0.25
+	}
+}
+textures/blanks/blank5
+{
+	{
+		map gfx/beam3.tga
+		scale static 15 static 15
+		colormap 1 1 1
+		beam
+	}
+}
+textures/blanks/blank6
+{
+	{
+		map textures/arena5/lighta.tga
+		blendfunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll sin 0 sin 0
+		anim .02
+			textures/arena5/lighta.tga
+			textures/arena5/lightb.tga
+			textures/arena5/lightc.tga
+			textures/arena5/lightd.tga
+			textures/arena5/lighte.tga
+			textures/arena5/lightf.tga
+		end
+	}
+}
+textures/blood/slime_splatter2
+{
+	{
+		cube
+	}
+}
+textures/arena10/factoryfloorg
+{
+	{
+		map gfx/weed3.tga
+		scale static 4 static 4
+		colormap .7 .6 .5
+		grass
+		grasstype 0
+	}	
+}
+
+env/hhellup
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 1 1
+	}
+}
+env/hhellrt
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 1 1
+	}
+}
+env/hhelllf
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 1 1
+	}
+}
+env/hhellft
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 1 1
+	}
+}
+env/hhellbk
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 1 1
+	}
+}
+env/hhelldn
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 1 1
+	}
+}
+

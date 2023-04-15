@@ -1,0 +1,74 @@
+Alien Arena Retro Map Pack
+==========================
+
+Thanks for downloading the retro Alien Arena map pack. This is a 
+special collection of maps that were removed from the lineup 
+prior to the Alien Arena 2009 release. No alterations were made 
+to textures and lightning, apart from door teaming on a few of 
+the maps and invisible changes required to make the maps
+compatible with the CRX engine, the maps were left exactly as 
+they were a decade ago. They have withstood the test of time 
+and have long been community favourites, they are testament to 
+how far Alien Arena has come in terms of technologies, theme
+and design.
+
+Installation
+============
+
+Windows: Extract the arena folder to your installation directory, 
+the default is C:\Program Files (x86)\Steam\steamapps\common\AAWoM
+
+Linux: Extract the arena folder to /home/yourusername/.steam/steam/steamapps/common/AAWoM
+
+Maps Included
+=============
+
+Icarus
+------
+	Mode: Capture The Flag
+	Creator: Irritant
+	Conversion: Xenos
+	
+Last Days Of Zion
+-----------------
+	Mode: Capture The Flag
+	Creator: Irritant
+	Conversion: Xenos
+
+Atlantis
+--------
+	Mode: Deathmatch
+	Creator: Irritant
+	Conversion: Xenos
+
+Beyond Deva
+-----------
+	Mode: Deathmatch
+	Creator: Id Software
+	Conversion: Irritant
+
+The Dredwerkz
+-------------
+	Mode: Deathmatch
+	Creator: Id Software
+	Conversion: Irritant
+
+Fury Of Phobos
+--------------
+	Mode: Deathmatch
+	Creator: Irritant
+	Conversion: Xenos
+
+Tomb Of Horus
+-------------
+	Mode: Deathmatch
+	Creator: Irritant
+	Conversion: Xenos
+
+The Omega Zone
+--------------
+	Mode: Deathmatch
+	Creator: Irritant
+	Conversion: Xenos
+
+Note: These maps were contributed by the Alien Arena community and are not supported by COR Entertainment.

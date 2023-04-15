@@ -1,0 +1,160 @@
+textures/xenos/banner
+{
+	{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		rotating 1
+		scale static 3 static 3
+		scroll static 0 cosine -0.4
+		alphashift 0 0.5 0.5
+	}
+{
+		map gfx/noise.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 3 static 3
+		scroll cosine -0.4 static 0
+		alphashift 0 0.4 0.4
+	}
+	{
+		map textures/xenos/banner.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+	}
+}
+
+textures/rigel/baselightred
+{
+	{
+		map textures/rigel/baselightred.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 8 0.0 1.0
+		nolightmap
+	}
+}
+
+textures/metal/fade1
+{
+	{
+		map textures/metal/fade1.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 70 0.6 1.0
+		nolightmap
+	}
+}
+
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap 0.5 0.5 0.5
+		beam
+		yang 0.25
+	}
+}
+
+textures/blanks/blank3
+{
+	{
+		map gfx/beam3.tga
+		scale static 20 static 20
+		colormap 0.5 0.5 0.5
+		beam
+		yang -0.25
+	}
+}
+
+textures/blanks/blank4
+{
+	{
+		map gfx/beam2.tga
+		scale static 5 static 5
+		colormap 0.5 0.1 0.5
+		beam
+		beamtype 1
+	}
+}
+
+textures/xenos/metal4c
+{
+	{
+		map gfx/grchrome.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		scale static 0.3 static 0.3		
+		alphashift 0 0.3 0.3
+		envmap
+	}
+}
+
+textures/xenos/e6launchengine_white
+{
+        {
+                map textures/xenos/e6launchengine_white.tga
+                anim 0.15
+			textures/xenos/e6launchengine_white.tga
+                        textures/xenos/e6launchengine_white_1.tga
+                        textures/xenos/e6launchengine_white_2.tga
+                        textures/xenos/e6launchengine_white_3.tga
+                        textures/xenos/e6launchengine_white_4.tga
+		end
+	}
+}
+
+textures/xenos/monolauncher_6
+{
+        {
+                map textures/xenos/monolauncher_6.tga
+		anim 0.2
+                        textures/xenos/monolauncher_1.tga
+                        textures/xenos/monolauncher_2.tga
+                        textures/xenos/monolauncher_3.tga
+                        textures/xenos/monolauncher_4.tga
+                        textures/xenos/monolauncher_5.tga
+                        textures/xenos/monolauncher_6.tga
+		end
+	}
+}
+
+textures/rage/light10
+{
+	{
+		map gfx/light10_fx.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 8 0.0 1.0
+		nolightmap
+	}
+	{
+		map gfx/ragelight_mask.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+	}
+}
+
+textures/arena9/panel1
+{
+	{
+		lensflare
+	}
+}
+
+textures/xenos/glass_noisy
+{
+	{
+		map textures/xenos/glass_noisy.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.5 0.5
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -4 static -4
+		alphashift 0 0.3 0.3
+		scroll static 0 static -2
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.1 0.1
+		scale static -8 static -8
+		scroll static 0 static -1
+	}
+}
+

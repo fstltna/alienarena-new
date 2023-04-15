@@ -1,0 +1,4 @@
+unix/odesrc/ousrc/libode_a-atomic.o: unix/odesrc/ousrc/atomic.cpp \
+ /usr/include/stdc-predef.h ../source/unix/odesrc/ou/features.h
+/usr/include/stdc-predef.h:
+../source/unix/odesrc/ou/features.h:

@@ -1,0 +1,50 @@
+textures/rage/light7
+{
+	{
+		lensflare
+	}
+}
+textures/rage/light8
+{
+	{
+		lensflare
+	}
+}
+textures/phillipk/pk02_light03
+{
+	{
+		lensflare
+	}
+}
+textures/phillipk/pk02_light02a
+{
+	{
+		lensflare
+	}
+}
+textures/arena7/glass
+{
+	{
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/xenos/monolauncher_1
+{
+        {
+                map textures/xenos/monolauncher_1.tga
+                anim 0.2
+                        textures/xenos/monolauncher_1.tga
+                        textures/xenos/monolauncher_2.tga
+                        textures/xenos/monolauncher_3.tga
+                        textures/xenos/monolauncher_4.tga
+                        textures/xenos/monolauncher_5.tga
+                        textures/xenos/monolauncher_6.tga
+		end
+        }
+}
+

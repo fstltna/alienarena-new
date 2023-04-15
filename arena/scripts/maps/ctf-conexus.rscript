@@ -1,0 +1,51 @@
+textures/arena7/glass
+{
+	{		
+		map gfx/reflect.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static 1 static 1
+		scroll static 0 static 0
+		alphashift 0 0.1 0.1
+		envmap
+	}
+}
+textures/blanks/blank1
+{
+	{
+		map gfx/beam3.tga
+		scale static 15 static 30
+		colormap 0.7 0.7 0.7
+		beam
+		yang -0.24
+	}
+}
+textures/blanks/blank2
+{
+	{
+		map gfx/beam3.tga
+		scale static 15 static 30
+		colormap 0.7 0.7 0.7
+		beam
+		xang 0.24
+	}
+}
+textures/blanks/blank3
+{
+	{
+		map gfx/beam3.tga
+		scale static 15 static 30
+		colormap 0.7 0.7 0.7
+		beam
+		xang -0.24
+	}
+}
+textures/blanks/blank4
+{
+	{
+		map gfx/beam3.tga
+		scale static 15 static 30
+		colormap 0.7 0.7 0.7
+		beam
+		xang -0.24
+	}
+}

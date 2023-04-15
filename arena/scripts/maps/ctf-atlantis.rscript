@@ -1,0 +1,135 @@
+textures/arena9/greenglass
+{
+	{
+		map textures/arena9/greenglass.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.5 0.5
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -4 static -4
+		alphashift 0 0.3 0.3
+		scroll static 0 static -2
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.1 0.1
+		scale static -8 static -8
+		scroll static 0 static -1
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.1 0.1
+		scale static -2 static -2
+		scroll static 0 static -3
+	}
+}
+textures/arena9/trim2
+{
+	{
+		map gfx/bluelightning2.tga
+		scroll static 5 static 0
+		nolightmap
+	}
+	{
+		map gfx/trim2mask.tga
+		alphamask
+	}
+}
+textures/arena7/glass
+{
+	{
+		map gfx/grchrome.tga
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.1 0.1
+		envmap
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		scale static -4 static -4
+		alphashift 0 0.3 0.3
+		scroll static 0 static -2
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.1 0.1
+		scale static -8 static -8
+		scroll static 0 static -1
+	}
+	{
+		map gfx/bubbles.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.1 0.1
+		scale static -2 static -2
+		scroll static 0 static -3
+	}
+}
+textures/arena3/water
+{
+	{
+		map gfx/dmturboreflection.tga
+		distort
+	}
+}
+textures/blanks/blank2
+{
+	{
+		map textures/arena9/greenglass.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA	
+		alphashift 0 0.5 0.5
+	}
+
+}
+env/greenup
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greenrt
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/tgreenlf
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greenft
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greenbk
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
+env/greendn
+{
+	{
+		map gfx/clouds.tga
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_ALPHA
+		alphashift 0 0.8 0.8
+	}
+}
