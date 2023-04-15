@@ -1,6 +1,6 @@
 name: alien-arena-linux # you probably want to 'snapcraft register <name>'
 base: core18 # the base snap is the execution environment for this snap
-version: '7.71.4' # just for humans, typically '1.2+git' or '1.3.2'
+version: '7.71.4-001' # just for humans, typically '1.2+git' or '1.3.2'
 summary:  Ultra Fast-Paced Arena FPS
 description: |
    Do you like old school deathmatch with modern features? How about rich, colorful, arcade-like atmospheres? How about...retro Sci Fi? Then you're going to love what Alien Arena has in store for you! This game combines some of the very best aspects of such games as Quake III and Unreal Tournament and wraps them up with a retro alien theme, while adding tons of original ideas to make the game quite unique.
